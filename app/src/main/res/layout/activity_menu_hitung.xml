@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorLayout">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Menu Hitung Bangun Datar"
+            android:textAlignment="center"
+            android:textColor="@color/judul"
+            android:textStyle="bold"
+            android:textSize="24dp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="5dp">
+
+            <TextView
+                android:id="@+id/tvPersegi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Menghitung Persegi"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/tvLingkaran"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Menghitung Lingkaran"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/tvPersegiPanjang"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Menghitung Persegi Panjang"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/tvSegitiga"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Menghitung Segitiga"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/tvTrapesium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Menghitung Trapesium"
+                android:textSize="18dp"/>
+        </TableLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
